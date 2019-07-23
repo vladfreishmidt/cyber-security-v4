@@ -1,0 +1,109 @@
+#web-app-test section.top {
+    background: url(../../../img/web-app-test-top-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#web-app-test section.top h1 {
+    text-transform: capitalize;
+}
+
+#web-app-test section.top p._description {
+    font-size: 17px;
+}
+
+/* ABOUT */
+#web-app-test section.about {
+    padding: 80px 0;
+    margin-bottom: 0;
+}
+
+#web-app-test section.about .col-right {
+    padding: 0 30px;
+}
+
+#web-app-test section.about p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* TEXT BLOCK */
+#web-app-test .text-block h3{
+    color: #72dded;
+    text-transform: capitalize;
+}
+
+/* linear-circle-list */
+ul.linear-circle-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+ul.linear-circle-list li {
+    text-transform: capitalize;
+    border: 3px solid #fff;
+    height: 170px;
+    width: 170px;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    font-size: 1.25rem;
+    align-items: center;
+    line-height: 1.3;
+    color: #72dded;
+    position: relative;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgb(58, 63, 73) 0%, rgb(37, 40, 46) 100%) !important;
+    background-image: -webkit-linear-gradient(rgb(58, 63, 73) 0%, rgb(37, 40, 46) 100%) !important; 
+    transition: all .3s linear;
+}
+
+
+ul.linear-circle-list li:hover {
+    -webkit-box-shadow: 0px 0px 10px 1px #72dded;
+    box-shadow: 0px 0px 10px 1px #72dded;
+}
+
+ul.linear-circle-list li:hover::after {
+    right: -40%;
+}
+
+/* ANIMATION */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+
+/* ANIMATION END*/
+
+ul.linear-circle-list li a {
+    color: #72dded;
+}
+
+ul.linear-circle-list li::after {
+    content: '\203A';
+    font-size: 4rem;
+    display: inline-block;
+    position: absolute;
+    top: 23%;
+    right: -35%;
+    transition: all .3s linear;
+}
+
+ul.linear-circle-list li:last-child::after {
+    display: none;
+}
+
+/* CTA */
+#web-app-test section.cta {
+    background: url(../../../img/ddos-cta.jpg) center center;
+    background-size: cover;
+}

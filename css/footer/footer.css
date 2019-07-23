@@ -1,0 +1,40 @@
+footer {
+    background-color: #131414 !important;
+    height: 100% !important;
+    padding: 50px 0 !important;
+}
+
+footer .footer-nav {
+    margin-bottom: 50px;
+}
+
+footer .footer-nav h5 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer .footer-nav li {
+    padding: 10px 0;
+}
+
+footer .footer-nav li:last-child {
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+footer .footer-nav a {
+    font-size: 13px;
+    display: block;
+    color: #72dded;
+    font-weight: 400;
+    transition: all .2s ease-in-out;
+}
+
+footer .footer-nav a:hover {
+    color: #fff;
+}
+
+footer .copyright p {
+    line-height: 1;
+    font-size: 12px; 
+}

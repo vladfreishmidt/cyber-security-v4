@@ -1,0 +1,72 @@
+section.services {
+    padding: 50px 0;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 9999;
+}
+
+section.services h3 {
+    color: #fff;
+}
+
+section.services h4 {
+    color: #72dded;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+section.services .service-item {
+    background-image: linear-gradient(rgb(58, 63, 73) 0%, rgb(37, 40, 46) 100%) !important;
+    background-image: -webkit-linear-gradient(rgb(58, 63, 73) 0%, rgb(37, 40, 46) 100%) !important; 
+    margin: 0 10px;
+    padding: 5px 10px 50px 10px;
+    color: #fff;
+    position: relative;
+    top: 0;
+    transition: top .3s ease-in-out;
+}
+
+section.services .service-item:hover {
+    -webkit-box-shadow: 0px 0px 10px 1px #72dded;
+    box-shadow: 0px 0px 10px 1px #72dded;
+    top: -10px;
+}
+
+section.services .service-item .icon {
+    margin-bottom: 10px;
+    color: #72dded;
+}
+
+section.services .service-item .icon img {
+    max-width: 130px;
+}
+
+section.services .service-item p {
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 15px;
+    width: 85%;
+    margin: 0 auto 70px auto;
+}
+
+section.services .service-item .primary-btn {
+    font-size: 14px;
+    border: 2px solid #72dded;
+    border-radius: 30px;
+    padding: 12px 13px;
+    position: absolute;
+    bottom: 60px;
+    right: 68px;
+    width: 50%;
+}
+
+section.services .service-item .primary-btn:hover {
+    border-color: #fff;
+}
+
+section.top {
+    margin-bottom: 0;
+}
+
