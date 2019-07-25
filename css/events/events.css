@@ -331,3 +331,13 @@ html {
     color: #41C1F2;
     text-decoration: none;
 }
+
+
+/* CTA */
+
+#events section.cta {
+    padding: 125px 0 100px 0;
+    background-image: url(../../img/cyber-news-cta-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
