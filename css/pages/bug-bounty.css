@@ -1,0 +1,28 @@
+#bug-bounty {
+    color: #fff;
+}
+
+#bug-bounty h3 {
+    color: #72dded;
+}
+
+.linear-circle-list li a {
+    text-align: center;
+    font-size: 1.1rem;
+    display: block;
+    width: 100%;
+}
+
+.text-block:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.text-block {
+    padding-top: 25px;
+}
+
+.text-block p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.2;
+}
